@@ -36,3 +36,8 @@ $ cd polybar && ./build.sh
 Be careful to type 'N' when the build asks if you want to download the example polybar configuration.
 
 ## Applying the settings
+
+```sh
+cd ${HOME}/.local/share/fonts/
+git clone https://github.com/terroo/fonts/trunk/fonts
+```
