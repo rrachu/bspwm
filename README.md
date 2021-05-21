@@ -1,2 +1,1 @@
-# bspwm
-Dotfiles from my bspwm.
+![image](example.png)
