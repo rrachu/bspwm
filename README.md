@@ -64,4 +64,17 @@ $ mv rofi/ ${HOME}/.config/
 $ mv wallpaper.jpg ${HOME}/.wallpaper.jpg
 $ feh --bg-scale ${HOME}/.wallpaper.jpg # set wallpaper
 ```
-### Now just logout
+Now just logout
+
+#### Extras
+To change the name of your polybar distro, just edit the file.
+``$HOME/.config/polybar/user_modules.ini``
+And switch to your distro's logo. 
+
+Distro  | Text for Polybar
+------- | ----------------
+Linux Mint |  Linux Mint
+Ubuntu |  Ubuntu
+Debian |  Debian
+
+It is very likely that the characters are not appearing here in the repository. But rest assured, if you installed all fonts correctly, the font will appear on the polybar when you paste
