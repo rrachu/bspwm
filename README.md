@@ -6,6 +6,15 @@ Repository containing all my configuration files used to create my rice. Below a
 
 ### How to install
 
+First of all
+```sh
+$ sudo apt update
+$ sudo apt full-upgrade -y
+$ sudo apt clean
+$ sudo apt autoremove -y
+$ sudo apt autoclean
+```
+
 Dependencies
 ```sh
 sudo apt install -y build-essential cmake cmake-data pkg-config libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev libcurl4-openssl-dev libjsoncpp-dev libpulse-dev libmpdclient-dev libasound2-dev libxcb-cursor-dev libxcb-xrm-dev libxcb-xkb-dev libnl-genl-3-dev
