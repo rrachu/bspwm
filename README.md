@@ -1,5 +1,5 @@
 ## BSPWM Dotfiles
-Repository containing all my configuration files used to create my rice. Below an example of the final result.
+Repository containing all my configuration files used to create my rice. Below an example of the final result. <br>Linux Mint, Ubuntu and Debian based.
 
 ![image](example.png)
 ---
