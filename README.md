@@ -79,7 +79,7 @@ Debian |  Debian
 
 It is very likely that the characters are not appearing here in the repository. But rest assured, if you installed all fonts correctly, the font will appear on the polybar when you paste
 
-### Keyboard shortcuts
+### Some keyboard shortcuts
 You can edit them in the ``.config/sxhkd/sxhkdrc`` file.
 
 Shortcut  | Exec
