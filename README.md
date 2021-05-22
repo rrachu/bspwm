@@ -47,7 +47,21 @@ Be careful to type 'N' when the build asks if you want to download the example p
 ## Applying the settings
 
 ```sh
-cd ${HOME}/.local/share/fonts/
-git clone https://github.com/terroo/fonts/trunk/fonts
+$ cd ${HOME}/.local/share/fonts/
+$ git clone https://github.com/terroo/fonts/trunk/fonts
+$ fc-cache -fv
 ```
-[Repository not yet finalized]
+
+```sh
+$ cd $HOME/bspwm # this if you cloned the repository in your home
+```
+```sh
+$ mv bspwm/ ${HOME}/.config/
+$ mv sxhkd/ ${HOME}/.config/
+$ mv dunst/ ${HOME}/.config/
+$ mv polybar/ ${HOME}/.config/
+$ mv rofi/ ${HOME}/.config/
+$ mv wallpaper.jpg ${HOME}/.wallpaper.jpg
+$ feh --bg-scale ${HOME}/.wallpaper.jpg # set wallpaper
+```
+### Now just logout
