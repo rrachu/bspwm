@@ -47,8 +47,8 @@ Be careful to type 'N' when the build asks if you want to download the example p
 ## Applying the settings
 
 ```sh
-$ cd ${HOME}/.local/share/fonts/
-$ git clone https://github.com/terroo/fonts/trunk/fonts
+$ git clone https://github.com/terroo/fonts.git
+$ cd fonts/fonts && cp *.ttf *.otf $HOME/.local/share/fonts/
 $ fc-cache -fv
 ```
 
@@ -64,7 +64,7 @@ $ mv rofi/ ${HOME}/.config/
 $ mv wallpaper.jpg ${HOME}/.wallpaper.jpg
 $ feh --bg-scale ${HOME}/.wallpaper.jpg # set wallpaper
 ```
-Now just logout
+Now just logout.
 
 #### Extras
 To change the name of your polybar distro, just edit the file.
@@ -78,3 +78,15 @@ Ubuntu |  Ubuntu
 Debian |  Debian
 
 It is very likely that the characters are not appearing here in the repository. But rest assured, if you installed all fonts correctly, the font will appear on the polybar when you paste
+
+### Keyboard shortcuts
+You can edit them in the ``.config/sxhkd/sxhkdrc`` file.
+
+Shortcut  | Exec
+--------  | ------
+super + Return | Terminal
+super + shift + i | Flameshot
+super + d | Rofi
+super + alt + r | Restart bspwm
+super + {Left,Down,Up,Right} | Changes the window in focus
+super + shift + u | MPD
