@@ -21,7 +21,7 @@ sudo apt install -y build-essential cmake cmake-data pkg-config libcairo2-dev li
 ```
 Packages
 ```sh
-sudo apt install -y bspwm sxhkd subversion rofi feh numlockx compton dunst neofetch imagemagick webp unifont xfce4-terminal git arc-theme papirus-icon-theme
+sudo apt install -y bspwm sxhkd subversion dmenu rofi feh numlockx compton dunst neofetch imagemagick webp unifont xfce4-terminal git arc-theme papirus-icon-theme
 ```
 
 ### Install polybar
